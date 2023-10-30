@@ -25,7 +25,6 @@ public class BossCondition : MonoBehaviour
         {
             collider.gameObject.SetActive(false);
 
-            // TODO: Replace this to seperate audio file
             FindObjectOfType<AudioManager>().Play("BulletHit");
 
             // Calculate the damage based on the distance and set damage variable
